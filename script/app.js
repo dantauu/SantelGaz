@@ -2,7 +2,7 @@
 let intervalId
 
 document.querySelectorAll('.dropdown-toggle').forEach(e => {
-    e.addEventListener('click', e => {
+    e.addEventListener('mouseenter', e => {
         const menu = e.currentTarget.dataset.path
 
         document.querySelectorAll('.dropdown-menu').forEach(e => {
